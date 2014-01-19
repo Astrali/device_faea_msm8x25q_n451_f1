@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/root/init.qcom.usb.sh:recovery/root/init.qcom.usb.sh \
     $(LOCAL_PATH)/root/nv_set:recovery/root/nv_set \
     $(LOCAL_PATH)/root/rmt_storage_recovery:recovery/root/rmt_storage_recovery \
+    $(LOCAL_PATH)/modules/sleep_monitor.ko:system/lib/modules/sleep_monitor.ko \
     $(LOCAL_PATH)/modules/sm_event_driver.ko:system/lib/modules/sm_event_driver.ko \
     $(LOCAL_PATH)/modules/sm_event_log.ko:system/lib/modules/sm_event_log.ko \
     $(LOCAL_PATH)/modules/ath6kl/ath6kl_sdio.ko:system/lib/modules/ath6kl/ath6kl_sdio.ko \
