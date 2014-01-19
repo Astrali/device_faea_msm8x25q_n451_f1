@@ -60,3 +60,6 @@ TARGET_RECOVERY_INITRC := device/faea/msm8x25q_n451_f1/recovery/recovery.rc
 #TWRP
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_CUSTOM_POWER_BUTTON := 107
+
+#philz
+TARGET_COMMON_NAME := Faea F1
